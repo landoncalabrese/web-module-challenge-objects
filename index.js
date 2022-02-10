@@ -15,18 +15,11 @@ The function should:
   Example createMenuItem('tacos', 8, 'Lunch') should return {name: 'tacos', price: 8, category: 'Lunch'}
 */
 
-function createMenuItem(obj, category, name, price){
-  obj = { category, name, price };
-  obj = {
-    category: category,
-    name: name,
-    price: price
-  };
-  return obj;
+function createMenuItem(name, price, category){
+  return (name, price, category);
 }
 
-const taco = createMenuItem({}, 'lunch', 'taco', 8);
-console.log(taco);
+console.log(createMenuItem('tacos', 8, 'lunch'));
 
 /* 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 Task 1b: 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀
 Invoke your function!
