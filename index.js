@@ -16,10 +16,10 @@ The function should:
 */
 
 function createMenuItem(name, price, category){
-  return (name, price, category);
+  return {name, price, category};
 }
 
-console.log(createMenuItem('tacos', 8, 'lunch'));
+console.log('task 1 a', createMenuItem('tacos', 8, 'lunch'));
 
 /* 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 Task 1b: 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀
 Invoke your function!
