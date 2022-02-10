@@ -15,17 +15,17 @@ The function should:
   Example createMenuItem('tacos', 8, 'Lunch') should return {name: 'tacos', price: 8, category: 'Lunch'}
 */
 
-function createMenuItem(obj, name, price, category){
-  obj = { name, price, category };
+function createMenuItem(obj, category, name, price){
+  obj = { category, name, price };
   obj = {
+    category: category,
     name: name,
-    price: price,
-    category: category
+    price: price
   };
   return obj;
 }
 
-const taco = createMenuItem({}, 'taco', 8, 'lunch');
+const taco = createMenuItem({}, 'lunch', 'taco', 8);
 console.log(taco);
 
 /* 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 Task 1b: 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀
