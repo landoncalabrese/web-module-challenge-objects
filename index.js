@@ -30,9 +30,13 @@ Test your createMenuItems function by doing the following:
   
   For example: createMenuItem("pizza",5,"lunch") would return this as the object: {name:"Pizza",price:5,category:"lunch"}
 */
-console.log('task 1 b', createMenuItem('steak', 12, 'dinner'));
-console.log('task 1 b', createMenuItem('chicken', 10, 'dinner'));
-console.log('task 1 b', createMenuItem('salad', 5, 'lunch'));
+const steak = createMenuItem('steak', 9, 'dinner');
+const soup = createMenuItem('soup', 4, 'side');
+const pizza = createMenuItem('pizza', 7, 'dinner');
+
+console.log(steak);
+console.log(soup);
+console.log(pizza);
 
 /* 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 Task 2: 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀
 You're having a lunch special! 25% off for teachers and students, 10% off for everyone else. Add a method to the 
@@ -78,7 +82,7 @@ const reviews = [
 Using the reviews array above:
   1. log only Julius' feedback to the console - no function needed 
 */
-
+console.log(reviews[5].feedback)
 
 
 
